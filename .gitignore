@@ -27,3 +27,6 @@ Thumbs.db
 
 # Dependencies and externals
 external/fast-csv
+
+#clang
+.clang-format
