@@ -26,3 +26,7 @@ add_executable(practice-2
 add_executable(example-3
     src/examples/example-3.cpp
 )
+
+add_executable(practice-3
+    src/practice/practice-3.cpp
+)
