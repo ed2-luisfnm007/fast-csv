@@ -1,0 +1,12 @@
+# Exportación del sistema
+
+producto;codigo;cantidad;precio;estado;categoria
+"Taladro; industrial";1001;15;2499.99;A;Herramientas
+Martillo;1002;30;350.50;A;Herramientas
+Caja de tornillos;1003;5000000000;125.00;A;Ferretería
+
+# descontinuado
+
+Sierra circular;1004;4;3200.00;D;Herramientas
+Compresor;1005;2;8450.75;A;
+"Llave ""Profesional""";1006;12;425.50;A;Herramientas

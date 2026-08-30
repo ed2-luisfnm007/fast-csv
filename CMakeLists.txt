@@ -30,3 +30,7 @@ add_executable(example-3
 add_executable(practice-3
     src/practice/practice-3.cpp
 )
+
+add_executable(practice-4
+    src/practice/practice-4.cpp
+)
