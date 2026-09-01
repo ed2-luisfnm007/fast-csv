@@ -42,3 +42,7 @@ add_executable(practice-4
 add_executable(practice-5
     src/practice/practice-5.cpp
 )
+
+add_executable(practice-6
+    src/practice/practice-6.cpp
+)

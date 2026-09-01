@@ -1,0 +1,8 @@
+# Log de Detalles de Ventas 2026
+# Formato: order_id \t item_sku \t quantity \t unit_price
+1001	SKU-A1	2	450.00
+1001	SKU-B2	1	120.50
+# Registro de orden 1002 con corruptela corregida
+1002	SKU-A1	1	INVALID_PRICE
+1002	SKU-C3	5	80.00
+1004	SKU-B2	10	115.00
