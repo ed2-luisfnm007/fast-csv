@@ -14,7 +14,7 @@ struct Product
 
 int main()
 {
-    io::CSVReader<4> reader("src/examples/products.csv");
+    io::CSVReader<4> reader("src/examples/csv/products.csv");
 
     reader.read_header(io::ignore_extra_column, "code", "name", "price", "quantity");
 

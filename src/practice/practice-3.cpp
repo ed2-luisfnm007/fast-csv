@@ -12,7 +12,7 @@ int main()
         io::CSVReader<5,
                       io::trim_chars<' ', '\t'>,
                       io::double_quote_escape<',', '"'>>
-                reader("src/practice/practice-3-files/practice-3(2).csv");
+                reader("src/practice/csv/practice-3(2).csv");
 
         reader.read_header(io::ignore_extra_column | io::ignore_missing_column,
                            "id",

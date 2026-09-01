@@ -1,9 +1,13 @@
 #include "../../external/fast-csv/csv.h"
 #include <cstdint>
+#include <filesystem>
 #include <iostream>
+
+namespace fs = std::filesystem;
 
 int main()
 {
+    fs::path file = fs::path(EXAMPLE_DATA_DIR) / "practice-4.csv";
     try
     {
         io::CSVReader<6,
@@ -11,7 +15,7 @@ int main()
                       io::double_quote_escape<';', '"'>,
                       io::throw_on_overflow,
                       io::single_and_empty_line_comment<'#'>>
-                reader("src/practice/practice-4.csv");
+                reader(file.string());
 
         reader.read_header(io::ignore_missing_column,
                            "producto",

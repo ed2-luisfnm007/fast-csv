@@ -1,0 +1,5 @@
+order_id,customer_name,shipping_address,order_date,status
+1001,"García, Ana","Barrio El Centro, 3ra Ave",2026-03-01,COMPLETED
+1002,"López, ""El Gordo"" Carlos","Col. Universidad, Calle 5",2026-03-02,PENDING
+1003,"Martínez, María",# DIRECCIÓN CANCELADA #,2026-03-02,CANCELLED
+1004,"Supermercados ""La Cima"", S.A.","Km 4 Carretera a Chamelecón",2026-03-03,COMPLETED

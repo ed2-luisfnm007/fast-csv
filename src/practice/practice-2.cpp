@@ -9,7 +9,7 @@ int main()
                   io::double_quote_escape<';', '"'>,
                   io::throw_on_overflow,
                   io::single_line_comment<'#'>>
-            reader("src/practice/empleados.csv");
+            reader("src/practice/csv/empleados.csv");
 
     reader.set_header("id", "nombre", "edad", "ciudad", "salario");
     int id;

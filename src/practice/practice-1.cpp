@@ -13,7 +13,7 @@ struct Venta
 
 int main()
 {
-    io::CSVReader<4> reader("src/practice/ventas.csv");
+    io::CSVReader<4> reader("src/practice/csv/ventas.csv");
 
     reader.read_header(io::ignore_extra_column, "producto", "precio", "cantidad", "sucursal");
 

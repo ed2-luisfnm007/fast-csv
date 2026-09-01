@@ -6,7 +6,7 @@
 int main()
 {
 
-    io::CSVReader<3> reader("src/examples/products.csv");
+    io::CSVReader<3> reader("src/examples/csv/products.csv");
 
     reader.read_header(io::ignore_extra_column, "name", "price", "quantity");
 

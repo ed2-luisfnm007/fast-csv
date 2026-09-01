@@ -12,7 +12,7 @@ int main()
                       io::double_quote_escape<',', '"'>,
                       io::throw_on_overflow,
                       io::single_line_comment<'#'>>
-                reader("src/examples/empleados_invalidos.csv");
+                reader("src/examples/csv/empleados_invalidos.csv");
 
         reader.read_header(io::ignore_no_column, "id", "nombre", "edad", "salario");
 
