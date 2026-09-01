@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_compile_definitions(
-    EXAMPLE_DATA_DIR="${CMAKE_SOURCE_DIR}/src/practice/csv"
+    EXAMPLE_DIR="${CMAKE_SOURCE_DIR}/src/practice/csv"
 )
 
 add_executable(example-1
@@ -45,4 +45,8 @@ add_executable(practice-5
 
 add_executable(practice-6
     src/practice/practice-6.cpp
+)
+
+add_executable(practice-7
+    src/practice/practice-7.cpp
 )

@@ -7,7 +7,7 @@ namespace fs = std::filesystem;
 
 int main()
 {
-    fs::path file = fs::path(EXAMPLE_DATA_DIR) / "practice-4.csv";
+    fs::path file = fs::path(EXAMPLE_DIR) / "practice-4.csv";
     try
     {
         io::CSVReader<6,

@@ -1,0 +1,13 @@
+{
+  "customers_summary": [
+    {
+      "customer": "García, Ana",
+      "total_spent": 1020.5
+    },
+    {
+      "customer": "Supermercados \"La Cima\", S.A.",
+      "total_spent": 1150.0
+    }
+  ],
+  "report_date": "2026-09-01"
+}
